@@ -122,7 +122,7 @@ Hooks.on("preCreateCombatant", combatant => {
 
 function register_hooks() {
     libWrapper.register(
-        'ffg-star-wars-enhancements',
+        'ffg-star-wars-enhancements-test',
         'game.ffg.RollFFG.prototype.toMessage',
         function (wrapped, ...args) {
             /*
