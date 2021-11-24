@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "ffg-star-wars-enhancements-test",
-    "title": "FFG Star Wars Enhancements",
+    "title": "FFG Star Wars Enhancements-test",
     "description": "A collection of enhancements for the amazing FFG Star Wars system",
     "languages": [
         {
@@ -44,9 +44,9 @@
         }
     ],
     "socket": true,
-    "url": "https://github.com/wrycu/StarWarsFFG-Enhancements",
-    "manifest": "https://raw.githubusercontent.com/wrycu/StarWarsFFG-Enhancements/main/module.json",
-    "download": "https://github.com/wrycu/StarWarsFFG-Enhancements/archive/refs/tags/0.2.2.zip",
+    "url": "https://github.com/ksotengco/StarWarsFFG-Enhancements",
+    "manifest": "https://raw.githubusercontent.com/ksotengco/StarWarsFFG-Enhancements/main/module.json",
+    "download": "https://github.com/ksotengco/StarWarsFFG-Enhancements/archive/refs/tags/0.2.2.zip",
     "license": "LICENSE",
     "readme": "README.md",
     "esmodules": [
