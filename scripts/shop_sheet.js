@@ -103,7 +103,7 @@ export class Vendor extends ActorSheetFFGV2 {
 
     async getData() {
         const sheetData = super.getData();
-        log(module_name, JSON.stringify(sheetData.data));
+        log(module_name, JSON.stringify(this.actor.items));
         log(module_name, JSON.stringify(this.document.data.items));
         let vendor_data = this.document.getFlag("ffg-star-wars-enhancements", "vendor-data");
         // validate that we got flag data before trying to index into it
