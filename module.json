@@ -45,8 +45,8 @@
     ],
     "socket": true,
     "url": "https://github.com/ksotengco/StarWarsFFG-Enhancements",
-    "manifest": "https://raw.githubusercontent.com/ksotengco/StarWarsFFG-Enhancements/main/module.json",
-    "download": "https://github.com/ksotengco/StarWarsFFG-Enhancements/archive/refs/tags/0.2.2.zip",
+    "manifest": "https://raw.githubusercontent.com/ksotengco/StarWarsFFG-Enhancements/shop_gen/module.json",
+    "download": "https://github.com/ksotengco/StarWarsFFG-Enhancements/archive/refs/heads/shop_gen.zip",
     "license": "LICENSE",
     "readme": "README.md",
     "esmodules": [
