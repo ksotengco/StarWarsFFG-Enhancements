@@ -103,6 +103,8 @@ export class Vendor extends ActorSheetFFGV2 {
 
     async getData() {
         const sheetData = super.getData();
+        log(module_name, JSON.stringify(sheetData.data));
+        log(module_name, JSON.stringify(this.document.data.items));
         let vendor_data = this.document.getFlag("ffg-star-wars-enhancements", "vendor-data");
         // validate that we got flag data before trying to index into it
         if (vendor_data === undefined || vendor_data === null) {
@@ -143,11 +145,9 @@ export class Vendor extends ActorSheetFFGV2 {
                 log(module_name, JSON.stringify(item));
                 // this was a drag-and-dropped item. figure out the price on the fly
                 let price = (parseInt(item.data.data.price.value) * vendor_meta_data['price_modifier']) * (vendor_meta_data['base_price'] / 100);
-                let compendium = item.compendium;
                 inventory_data.push({
                     name: item.name,
                     id: item.data.flags.ffgTempId,
-                    compendium: compendium,
                     image: item.img,
                     price: price,
                     roll: "Manually Added",
